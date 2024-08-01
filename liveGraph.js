@@ -9,6 +9,7 @@ const data = {
         data: [], // Initial empty data
         fill: true
     }]
+    
 };
 
 const config = {
