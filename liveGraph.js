@@ -19,14 +19,22 @@ const config = {
             x: {
                 type: 'linear',
                 position: 'bottom',
+                title: {
+                    display: true,
+                    text: 'Time'
+                },
                 ticks: {
                     callback: function(value) {
-                        return value.toFixed(2); // Format X-axis labels
+                        return new Date(value).toLocaleTimeString(); // Format X-axis labels as time
                     }
                 }
             },
             y: {
-                beginAtZero: true
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Celsius'
+                }
             }
         },
         animation: {
