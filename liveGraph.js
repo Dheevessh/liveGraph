@@ -22,7 +22,7 @@ const config = {
                 position: 'bottom',
                 title: {
                     display: true,
-                    text: 'Time'
+                    text: 'Time1000'
                 },
                 ticks: {
                     callback: function(value) {
